@@ -1,13 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GuiButtonsScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameMangeger.cs">
     <Files>
       <File FileName="Assets\Scripts\Tower.cs" Line="28" Column="3" />
       <File FileName="Assets\Scripts\Ring.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameMangeger.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameMangeger.cs" Line="21" Column="41" />
       <File FileName="Assets\Scripts\FingerScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GuiButtonsScript.cs" Line="19" Column="47" />
+      <File FileName="Assets\Scripts\GuiButtonsScript.cs" Line="19" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
