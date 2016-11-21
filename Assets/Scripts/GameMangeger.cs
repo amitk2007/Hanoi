@@ -4,6 +4,7 @@ using System.Collections;
 
 public class GameMangeger : MonoBehaviour
 {
+    public Camera mainCam;
 	public Canvas Win;
 	public static GameObject[] Towers = new GameObject[3];
 	int numberOfRing = MainMenu.RingsNumber;
@@ -21,7 +22,8 @@ public class GameMangeger : MonoBehaviour
 		Hight = TotalRingHight(numberOfRings);
         RingHight =( TotalRingHight(numberOfRings) / (numberOfRings))*2;//to change****
         //Creating the rings
-        
+        if(numberOfRings>5)
+        mainCam.transform.position =new Vector3(0,1, -numberOfRings+5-10 );
 
 		for (int i = -1; i< 2; i++) 
 		{

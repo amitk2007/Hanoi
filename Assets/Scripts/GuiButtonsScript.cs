@@ -14,9 +14,9 @@ public class GuiButtonsScript : MonoBehaviour {
 	}
 
 	void OnGUI() {
-		if (GUI.Button (new Rect (10, 10, 50*5, 30*5), "restart"))
+		if (GUI.Button (new Rect (10, 10, Screen.width / 5f, Screen.height / 15f), "restart"))
 			Application.LoadLevel ("game");		
-		if (GUI.Button (new Rect (Screen.width-10-50*5, 10, 50*5, 30*5), "Menu"))
+		if (GUI.Button (new Rect (Screen.width-10- Screen.width / 5f, 10, Screen.width/5f, Screen.height/15f), "Menu"))
 			Application.LoadLevel ("menu");		
 	}
 }
